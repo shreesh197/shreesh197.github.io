@@ -400,84 +400,12 @@
 
           // Initialize Monaco Editor
           var editor = monaco.editor.create(document.getElementById("editor"), {
-            value: `public class Main{
-   static void printMCP1() {
-       System.out.println("				----> MCP - 1 <-----");
-       System.out.println("*****************************************************************************");
-       frontEnd();
-       java();
-       python();
-       database();
-       programming();
-       dsa();
-       mTest();
-       aptitude();
-       softskills();
-   }
-   static void printMCP2() {
-       System.out.println("				----> MCP - 2 <-----");
-       System.out.println("*****************************************************************************");
-       mTest();
-       aTest();
-       frontEnd();
-       java();
-       database();
-       programming();
-       dsa();
-       aptitude();
-       softskills();
-   }
-   static void java() {
-       String[] jc = { "Java Fundamentals(Module 1)", "Java Logical(Module 2)", "Java Conceptual(Module 3)",
-               "Java Frameworks(Module 4)" };
-       System.out.println("->Java :");
-       for (String s1 : jc) {
-           System.out.println("	" + s1);
-       }
-       System.out.println("->IDEs : Eclipse IntelliJ VSCode");
-       System.out.println("->Build Tool : Maven");
-       System.out.println("->Version Control : git");
-   }
-   static void python() {
-       String[] py = { "Core Python", "Adv. Python", "Django Framework" };
-       System.out.println("->Python : ");
-       for (String s1 : py) {
-           System.out.println("	" + s1);
-       }
-   }
-   static void mTest() {
-       System.out.println("->Manual Testing");
-   }
-   static void aTest() {
-       System.out.println("->Automation Testing Selenium");
-   }
-   static void frontEnd() {
-       String[] fe = { "HTML5", "CSS3", "JavaScript", "React" };
-       System.out.println("->Front End : ");
-       for (String s1 : fe) {
-           System.out.println("	" + s1);
-       }
-   }
-   static void database() {
-       System.out.println("->Database : Oracle MySQL MongoDB");
-   }
-   static void aptitude() {
-       System.out.println("->Aptitude : Mathematical Reasoning");
-   }
-   static void softskills() {
-       System.out.println("->Softskills : Resume Building Communication HR");
-   }
-   static void programming() {
-       System.out.println("->Programming : Hackathon");
-   }
-   static void dsa() {
-       System.out.println("->Data Structures & Algorithms : Linear & non-Linear Analysis of Algorithm");
-   }
-   public static void main(String[] args) {
-       printMCP1();
-       System.out.println("=============================================================================");
-       printMCP2();
-   }
+            value: `class Main
+{
+  public static void main(String[] args)
+  {
+    System.out.println("I will get a Job.");
+  }
 }`,
             language: "java",
             theme: "vs-dark",
